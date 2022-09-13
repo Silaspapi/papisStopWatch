@@ -30,7 +30,7 @@ function startTimer(){
     }
     if(tens > 99){
         seconds++;
-        getTens.innerHTML = '0' + seconds;
+        getSeconds.innerHTML = '0' + seconds;
         tens = 0;
         getTens.innerHTML = '0' + 0;
     }
